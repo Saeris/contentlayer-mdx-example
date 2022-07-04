@@ -1,0 +1,12 @@
+---
+title: MDX Component Example
+date: 2022-02-22
+---
+
+import { ExampleComponent } from "../src/components/ExampleComponent";
+
+This page has an embedded React Component:
+
+<ExampleComponent />
+
+Make any changes to `src/components/ExampleComponent.tsx` and this page won't refresh, and even after restarting the server, the cached content will be served because technically the markdown document itself did not change.
